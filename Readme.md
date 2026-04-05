@@ -1,10 +1,10 @@
 
-# 💸 GASTOS DIARIOS: Ecosistema Inteligente de Autonomía Financiera y Data Science
+# 💸 GASTOS DIARIOS: Sistema Autónomo de Gestión Financiera y Análisis de Datos Local
 
 <p align="center">
   <img src="https://img.shields.io/badge/Versión-Pre--Alpha_0.1.0-orange?style=for-the-badge&logo=testinglibrary" alt="Versión">
   <img src="https://img.shields.io/badge/Stack-Python_%2F_React_Native_%2F_PostgreSQL-61DAFB?style=for-the-badge&logo=react" alt="Stack">
-  <img src="https://img.shields.io/badge/Arquitectura-Microservicios_%26_AI--Driven-blue?style=for-the-badge&logo=python" alt="Arquitectura">
+  <img src="https://img.shields.io/badge/Arquitectura-Offline--First_%26_Local--Logic-blue?style=for-the-badge&logo=python" alt="Arquitectura">
   <img src="https://img.shields.io/badge/Desarrollo-Full--Stack_Mentorship-red?style=for-the-badge&logo=github" alt="Mentorship">
 </p>
 
@@ -52,7 +52,7 @@ El desarrollo está estructurado no solo para construir la app, sino para domina
 | :--- | :--- | :--- | :---: |
 | **Fase 1** | Modelado Relacional, Integridad de Datos y SQL | PostgreSQL, DBeaver, Diseño ER | 🏗️ |
 | **Fase 2** | Back End, APIs RESTful y Seguridad (JWT/CORS) | Python, FastAPI, Pydantic | 📅 |
-| **Fase 3** | Lógica de IA, NLP, OCR y Modelos Predictivos | Python, SpaCy, Tesseract, Scikit-learn | 📅 |
+| **Fase 3** | Lógica de Automatización, Parseo de Datos y Estadística | Python, Regex, Pandas, NumPy | 📅 |
 | **Fase 4** | Front End Multiplataforma y UI/UX | React Native, Expo, TailwindCSS | 📅 |
 | **Fase 5** | Despliegue, CI/CD y Publicación en PlayStore | Docker, AWS/Render, Google Play Console | 📅 |
 
@@ -69,14 +69,12 @@ El desarrollo está estructurado no solo para construir la app, sino para domina
 ```mermaid
 graph TD
     A[Usuario: Entrada de Gasto] --> B{Método de Ingreso}
-    B -- Voz / Texto Libre --> C[Motor NLP: Extracción de Entidades]
-    B -- Foto Factura --> D[Motor OCR: Análisis de Imagen]
+    B -- Texto Rápido --> C[Parseo Heurístico: Regex / Pattern Matching]
     B -- Push Bancario --> E[Listener de Notificaciones]
-    C --> F[Capa de Validación Backend - FastAPI]
-    D --> F
+    C --> F[Validación de Esquema - Backend]
     E --> F
     F --> G[(Base de Datos PostgreSQL)]
-    G --> H[Motor de Series Temporales - Predicción]
+    G --> H[Análisis de Tendencias Local]
     H --> I[Dashboard Web / Mobile]
     style F fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff
     style G fill:#2196F3,stroke:#1565C0,stroke-width:3px,color:#fff
