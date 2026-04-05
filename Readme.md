@@ -1,5 +1,5 @@
 
-# 💸 FIN-TRACKER: Ecosistema Inteligente de Autonomía Financiera y Data Science
+# 💸 GASTOS DIARIOS: Ecosistema Inteligente de Autonomía Financiera y Data Science
 
 <p align="center">
   <img src="https://img.shields.io/badge/Versión-Pre--Alpha_0.1.0-orange?style=for-the-badge&logo=testinglibrary" alt="Versión">
@@ -13,12 +13,28 @@
 ## 🏛️ Visión del Sistema
 
 <div align="justify">
-<b>FIN-TRACKER</b> redefine el paradigma de la contabilidad personal. Históricamente, las aplicaciones financieras fracasan por la fricción cognitiva que exigen al usuario (ingreso manual repetitivo de datos). Este proyecto elimina esa barrera mediante una arquitectura <b>Zero-Friction</b> impulsada por Inteligencia Artificial y automatización.
+<b>GASTOS DIARIOS</b> redefine el paradigma de la contabilidad personal. Históricamente, las aplicaciones financieras fracasan por la fricción cognitiva que exigen al usuario (ingreso manual repetitivo de datos). Este proyecto elimina esa barrera mediante una arquitectura <b>Zero-Friction</b> impulsada por Inteligencia Artificial y automatización.
 
-Más allá de un simple registro de ingresos y egresos, FIN-TRACKER es un <b>motor de decisiones financieras</b>. Mediante el uso de Procesamiento de Lenguaje Natural (NLP), lectura automatizada de metadatos (OCR y notificaciones bancarias) y modelos predictivos estadísticos, el sistema transforma datos crudos en estrategias de ahorro y proyecciones de capital. 
+Más allá de un simple registro de ingresos y egresos, GASTOS DIARIOS es un <b>motor de decisiones financieras</b>. Mediante el uso de Procesamiento de Lenguaje Natural (NLP), lectura automatizada de metadatos (OCR y notificaciones bancarias) y modelos predictivos estadísticos, el sistema transforma datos crudos en estrategias de ahorro y proyecciones de capital. 
 
 Este repositorio documenta el desarrollo integral del sistema, desde el modelado relacional hasta la implementación de arquitecturas Full-Stack, Ciberseguridad y Data Science.
 </div>
+
+## ⚙️ Funcionamiento del Ecosistema
+
+El sistema opera bajo un flujo de procesamiento inteligente diseñado para minimizar la interacción manual:
+
+1.  **Captura Omnicanal:** El usuario puede ingresar datos mediante lenguaje natural (voz o texto libre), fotografías de tickets o permitiendo que la app escuche notificaciones bancarias push.
+2.  **Capa de Inteligencia (AI Layer):** Los motores de NLP y OCR extraen entidades clave (monto, comercio, categoría, fecha) y validan la información contra patrones históricos.
+3.  **Persistencia y Auditoría:** Los datos se almacenan en una base de datos PostgreSQL con integridad referencial estricta, asegurando que cada centavo sea rastreable.
+4.  **Análisis Predictivo:** El motor estadístico procesa los datos históricos para generar proyecciones de flujo de caja y detectar anomalías en el comportamiento de gasto.
+
+## 🌟 Ventajas Clave
+
+*   **Reducción del Abandono:** Al eliminar la carga de llenar formularios complejos, se garantiza una mayor adherencia al hábito del registro financiero.
+*   **Precisión Basada en Datos:** La automatización reduce el error humano presente en los registros manuales.
+*   **Privacidad de Grado Bancario:** El sistema prioriza la seguridad local y la encriptación de datos sensibles, manteniendo la soberanía financiera del usuario.
+*   **Visibilidad Predictiva:** A diferencia de una app de gastos tradicional que solo mira al pasado, GASTOS DIARIOS ofrece una ventana hacia el comportamiento financiero futuro.
 
 ## 🚀 Innovaciones Tecnológicas y Diferenciadores
 
@@ -82,4 +98,4 @@ Mantendremos un registro estricto de nuestra evolución técnica, arquitectónic
   <b>— Steve McConnell</b>
 </p>
 
-<p align="center"><b>© 2024 FIN-TRACKER Project</b></p>
+<p align="center"><b>© 2024 GASTOS DIARIOS Project</b></p>
